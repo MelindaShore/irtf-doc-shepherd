@@ -1,6 +1,6 @@
 # IRTF Document Shepherd Guidelines
 
-Document shepherds are responsible for assisting in the movement of a research group document through the publication process once the RG has reached a decision to publish.  The document shepherd process for the IETF is described in [RFC 4850](https://datatracker.ietf.org/doc/rfc4858/); ours is substantially similar.  This text provides guidance only, and should not be treated as normative.
+Document shepherds are responsible for assisting in the movement of a research group document through the publication process once the RG has determined that the document is ready for publication.  The document shepherd process for the IETF is described in [RFC 4850](https://datatracker.ietf.org/doc/rfc4858/); ours is substantially similar but not as formal.  This text provides guidance only, and should not be treated as normative.
 
 RG chairs are responsible for choosing a document shepherd and may opt to take on that role themselves, but in any event the shepherd should be someone who is familiar with the history of the document's progress in the RG and who has subject matter expertise in the area covered by the assigned document.
 
@@ -16,4 +16,11 @@ The document shepherd writeup is for the benefit of the IRTF chair and the RFC S
 - whether or not any participant has indicated an intention to appeal publication of the document, or has other strong objections
 - a note on whether or not the shepherd believes the document needs additional review from someone with expertise outside the focus of the RG (for example, security, operations, etc),
 - whether or not the [ID nits checker](https://github.com/ietf-tools/idnits?tab=readme-ov-file) has identified any formal problems with the document, or whether or not there are any other formal issues (miscategorization of references, for example),
+- whether or not the shepherd has verified that sections of the document written in a formal language (YANG data models, JSON, etc) pass a validation checker,
 - [ not clear if publication announcement text is appropriate here ]
+
+Once the writeup is complete, it should be sent to the IRTF chair and entered in the datatracker page for the draft as a "COMMENT."
+
+The shepherd should track all feedback on the document and follow-up to ensure that issues that have been raised are resolved.  This often means iterating with the document's editors and providing gentle nudges to respond.  It may be helpful to maintain a list of each comment and how it was resolved.  In the event that an editor/author is not responsive it is the shepherd's responsibility to resolve an issue, working with the RG, the RG chairs, and the individual who raised the issue.  This process continues to iterate as the document moves through the publication process.
+
+The shepherd is also responsible for tracking IANA actions where appropriate, and ensuring that any required actions are performed.
