@@ -11,7 +11,7 @@ The shepherding process includes the following steps:
 
 The document shepherd writeup is for the benefit of the IRTF chair and the RFC Series Editor, and may also be reviewed by members of the IRSG.  The writeup should include:
 - the name of the document shepherd,
-- since IRTF documents are not requored to be consensus products, a few words on how the decision was made to publish,
+- since IRTF documents are not required to be consensus products, a few words on how the decision was made to publish,
 - a description of whether or not there was a research group last call, and how comments and other feedback were handled,
 - whether or not any participant has indicated an intention to appeal publication of the document, or has other strong objections
 - a note on whether or not the shepherd believes the document needs additional review from someone with expertise outside the focus of the RG (for example, security, operations, etc),
