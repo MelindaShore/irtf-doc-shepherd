@@ -6,6 +6,7 @@ RG chairs are responsible for choosing a document shepherd and may opt to take o
 
 The shepherding process includes the following steps:
 - produce a document shepherd writeup,
+- verify that any IPR claims relevant to the document have been disclosed through the IETF IPR disclosure [process](https://datatracker.ietf.org/ipr/) 
 - track and facilitate the IRTF last call, and make sure that authors respond to feedback from the community
 - track requests and comments from the RFC Editor and IANA, and make sure that they are responded to.
 
@@ -17,6 +18,7 @@ The document shepherd writeup is for the benefit of the IRTF chair and the RFC S
 - a note on whether or not the shepherd believes the document needs additional review from someone with expertise outside the focus of the RG (for example, security, operations, etc),
 - whether or not the [ID nits checker](https://github.com/ietf-tools/idnits?tab=readme-ov-file) has identified any formal problems with the document, or whether or not there are any other formal issues (miscategorization of references, for example),
 - whether or not the shepherd has verified that sections of the document written in a formal language (YANG data models, JSON, etc) pass a validation checker,
+- the status of any IPR claims on the content of the document, along with a summary of any discussion of IPR claims (for example, terms of use),
 - [ not clear if publication announcement text is appropriate here ]
 
 Once the writeup is complete, it should be sent to the IRTF chair and entered in the datatracker page for the draft as a "COMMENT."
